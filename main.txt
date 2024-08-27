@@ -1,5 +1,14 @@
 #include <stdio.h>
-void main (void) {
-printf("Hola, mundo!");
-return 0;
+
+int main(void) {
+    // Imprime "Hola, mundo!"
+    printf("Hola, mundo!\n");
+    
+    // Calcula la suma de (4+4)/8
+    int resultado = (4 + 4) / 8;
+    
+    // Imprime el resultado
+    printf("El resultado de (4+4)/8 es: %d\n", resultado);
+    
+    return 0;
 }
